@@ -1,4 +1,4 @@
-thrift_playground
+Apache Thrift Playground
 =================
 
 Playground for with Apache Thrift framework
