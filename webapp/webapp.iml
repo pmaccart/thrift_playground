@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resources/thrift-servlet.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="grails-2.1.0" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.springframework/spring-context/4.0.1.RELEASE/jar/cb996939c8d48ae55ec933041f17e7fba4d9e27d/spring-context-4.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.springframework/spring-context/4.0.1.RELEASE/source/148fc52b7d7ac01b5a67642a35d914702385c037/spring-context-4.0.1.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.slf4j/jcl-over-slf4j/1.6.2/jar/ac4cd2d6d0cf4342b4e8fd520c686851fc681912/jcl-over-slf4j-1.6.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.slf4j/jcl-over-slf4j/1.6.2/source/f1d6a191e0e09278a1f114e5812044b1f2faa459/jcl-over-slf4j-1.6.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.slf4j/slf4j-api/1.6.2/jar/8619e95939167fb37245b5670135e4feb0ec7d50/slf4j-api-1.6.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.slf4j/slf4j-api/1.6.2/source/6b5f6572792e2192ecf714ea12ae894b0fbcf750/slf4j-api-1.6.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.slf4j/slf4j-log4j12/1.6.2/jar/7dd950c7eeb3004a91720ba8782aa0ded9037110/slf4j-log4j12-1.6.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.slf4j/slf4j-log4j12/1.6.2/source/11c3fc1eac3b22742ad08899fd3ef4f4151592ba/slf4j-log4j12-1.6.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/log4j/log4j/1.2.17/bundle/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/log4j/log4j/1.2.17/source/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.springframework/spring-webmvc/4.0.1.RELEASE/jar/2dbc91a6413115f7ffbe94f0fa9bc9fda3281d90/spring-webmvc-4.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.springframework/spring-webmvc/4.0.1.RELEASE/source/b567c0d0bb7153347d479cfb3cca658c81857e85/spring-webmvc-4.0.1.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.aspectj/aspectjrt/1.6.9/jar/60683e772bcf173e7eb75e33e2ba066feacb6b4c/aspectjrt-1.6.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.aspectj/aspectjrt/1.6.9/source/2d1115550a8c68790d3fd76903fa20e84c95132a/aspectjrt-1.6.9-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/cglib/cglib-nodep/2.2/jar/59afed7ab65e7ec6585d5bc60556c3cbd203532b/cglib-nodep-2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/cglib/cglib-nodep/2.2/source/962f2bbd66901a9d67b0bb3c8c4a64ce6de0a8c4/cglib-nodep-2.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/javax.inject/javax.inject/1/jar/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/javax.inject/javax.inject/1/source/a00123f261762a7c5e0ec916a2c7c8298d29c400/javax.inject-1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/javax.servlet/jstl/1.2/jar/74aca283cd4f4b4f3e425f5820cda58f44409547/jstl-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/javax.servlet/jstl/1.2/source/2f5877ef15adb721421e80f5aa2b6fe069eec8ed/jstl-1.2-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/javax.servlet/javax.servlet-api/3.0.1/jar/6bf0ebb7efd993e222fc1112377b5e92a13b38dd/javax.servlet-api-3.0.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/javax.servlet/javax.servlet-api/3.0.1/source/1952f91d84016a39e31346c9d18bd8c9c4a128a/javax.servlet-api-3.0.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/javax.servlet.jsp/jsp-api/2.1/jar/63f943103f250ef1f3a4d5e94d145a0f961f5316/jsp-api-2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/javax.servlet.jsp/jsp-api/2.1/source/1c9e754118cf8d3d85b6b1257fb6fb0f914d08c6/jsp-api-2.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/commons-logging/commons-logging/1.1.1/jar/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/commons-logging/commons-logging/1.1.1/source/f3f156cbff0e0fb0d64bfce31a352cce4a33bc19/commons-logging-1.1.1-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.springframework/spring-core/4.0.1.RELEASE/jar/e39774d97c9dadfe49e6dfd16e3868bc1e390554/spring-core-4.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.springframework/spring-core/4.0.1.RELEASE/source/758732d7c02e8cc2a1866e529b21dda85f9cf326/spring-core-4.0.1.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.springframework/spring-beans/4.0.1.RELEASE/jar/605582e95fb62b43fb4a843babdcf739f3497e92/spring-beans-4.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.springframework/spring-beans/4.0.1.RELEASE/source/9449d1d53ca942bf6b060d89a2787a6408ffcabe/spring-beans-4.0.1.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/aopalliance/aopalliance/1.0/jar/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/aopalliance/aopalliance/1.0/source/4a4b6d692e17846a9f3da036438a7ac491d3c814/aopalliance-1.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.springframework/spring-aop/4.0.1.RELEASE/jar/ff68e4cfdbb2be3e8d8a7f34e7cbacc1860dfe75/spring-aop-4.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.springframework/spring-aop/4.0.1.RELEASE/source/f5189a198db33b2d8adc5801339d659ee92f9040/spring-aop-4.0.1.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.springframework/spring-expression/4.0.1.RELEASE/jar/452cb22401e868a1e79677dd22b6a3097fc603fa/spring-expression-4.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.springframework/spring-expression/4.0.1.RELEASE/source/bb4945a162af9acf045309885b455ecdfcc7f7cd/spring-expression-4.0.1.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.springframework/spring-web/4.0.1.RELEASE/jar/2ace92025f042e1d3ddfdbba093172e3572ac130/spring-web-4.0.1.RELEASE.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/.gradle/caches/artifacts-24/filestore/org.springframework/spring-web/4.0.1.RELEASE/source/e9f9d0649e61af469444970e256c7224ca10e3bc/spring-web-4.0.1.RELEASE-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="java_generated" exported="" />
+    <orderEntry type="module" module-name="api_impl" exported="" />
+  </component>
+</module>
+

@@ -1,0 +1,21 @@
+apply plugin: 'idea'
+
+idea {
+	project {
+		jdkName = '1.7'
+		languageLevel = '1.6'
+	}
+}
+
+
+subprojects {
+  if (!it.name == 'client_nodejs') apply plugin: 'java';
+	apply plugin: 'idea';
+
+	idea {
+		project {
+			jdkName = '1.7'
+			languageLevel = '1.6'
+		}
+	}
+}

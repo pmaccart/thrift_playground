@@ -1,0 +1,6 @@
+include 'java_generated', 'api_impl', 'server', 'webapp', 'client_java'
+project(':java_generated').projectDir = new File('java_generated')
+project(':api_impl').projectDir = new File('api_impl')
+project(':server').projectDir = new File('server')
+project(':webapp').projectDir = new File('webapp')
+project(':client_java').projectDir = new File('client_java')

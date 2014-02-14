@@ -5,19 +5,17 @@ sourceCompatability = 1.5
 targetCompatability = 1.5
 
 repositories {
-	mavenCentral()
+		mavenCentral()
 }
 
 ext.slf4jVersion =        "1.6.2"
 ext.log4jVersion =        "1.2.17"
 
 dependencies {
-  compile project(':api_impl')
-  compile project(':java_generated')
+  	compile project(':api_impl')
+  	compile project(':java_generated')
 
-//	compile "org.apache.thrift:libthrift:0.9.1"
-//  compile "org.slf4j:slf4j-log4j13:1.0.1"
-//  compile "log4j:log4j:1.2.17"
+		compile "org.apache.thrift:libthrift:0.9.1"
     compile("org.slf4j:slf4j-api:$slf4jVersion")
     compile("org.slf4j:slf4j-log4j12:$slf4jVersion")
     compile("log4j:log4j:$log4jVersion")

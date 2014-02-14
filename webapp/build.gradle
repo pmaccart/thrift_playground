@@ -1,0 +1,44 @@
+apply plugin: 'java'
+apply plugin: 'war'
+
+repositories {
+	mavenCentral()
+    maven { url "http://repo.spring.io/libs-release" }
+}
+
+ext.springVersion =       "4.0.1.RELEASE"
+ext.springMobileVersion = "1.1.0.RELEASE"
+ext.aspectJVersion =      "1.6.9"
+ext.cglibVersion =        "2.2"
+ext.slf4jVersion =        "1.6.2"
+ext.log4jVersion =        "1.2.17"
+ext.servletJstlVersion =  "1.2"
+ext.servletApiVersion =   "3.0.1"
+ext.servletJspVersion =   "2.1"
+ext.junitVersion =        "4.11"
+ext.tomcatVersion =       "7.0.50"
+
+dependencies {
+    compile project(':api_impl')
+    compile project(':java_generated')
+
+//    compile("org.springframework:spring-context:$springVersion"){
+//        exclude group: 'commons-logging', module: 'commons-logging'
+//    }
+    compile("org.springframework:spring-context:$springVersion")
+
+
+    compile("org.slf4j:jcl-over-slf4j:$slf4jVersion")
+    compile("org.slf4j:slf4j-api:$slf4jVersion")
+    compile("org.slf4j:slf4j-log4j12:$slf4jVersion")
+    compile("log4j:log4j:$log4jVersion")
+
+    compile("org.springframework:spring-webmvc:$springVersion")
+    compile("org.aspectj:aspectjrt:$aspectJVersion")
+    compile("cglib:cglib-nodep:$cglibVersion")
+    compile("javax.inject:javax.inject:1")
+    compile("javax.servlet:jstl:$servletJstlVersion")
+    providedCompile("javax.servlet:javax.servlet-api:$servletApiVersion")
+    providedCompile("javax.servlet.jsp:jsp-api:$servletJspVersion")
+
+}
